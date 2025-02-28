@@ -13,8 +13,8 @@
   </template>
 
   <script>
-  import Sidebar from './Sidebar.vue';
-  import Navbar from './Navbar.vue';
+import Sidebar from '../Layout/Sidebar.vue'
+import Navbar from '../Layout/Navbar.vue'
 
   export default {
     components: {

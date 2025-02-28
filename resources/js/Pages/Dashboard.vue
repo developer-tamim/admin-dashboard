@@ -547,7 +547,8 @@ import 'https://buttons.github.io/buttons.js';
   </template>
 
   <script>
-  import Layout from '../Components/Layout.vue'
+//   import Layout from '../Components-build-in/Layer/Layout.vue'
+import Layout from '../Components/Layout/Layout.vue';
 
 
   export default {
