@@ -1,25 +1,31 @@
 <template>
     <div class="layout-wrapper layout-content-navbar">
-      <div class="layout-container">
-        <Sidebar />
-        <div class="layout-page">
-          <Navbar />
-          <div class="content-wrapper">
-            <slot />
-          </div>
+        <div class="layout-container">
+            <Sidebar />
+            <div class="layout-page">
+                <Navbar :user="user" />
+                <div class="content-wrapper">
+                    <slot />
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </template>
+</template>
 
-  <script>
-import Sidebar from '../Layout/Sidebar.vue'
-import Navbar from '../Layout/Navbar.vue'
+<script>
+import Sidebar from "../Layout/Sidebar.vue";
+import Navbar from "../Layout/Navbar.vue";
 
-  export default {
+export default {
     components: {
-      Sidebar,
-      Navbar,
+        Sidebar,
+        Navbar,
     },
-  };
-  </script>
+    props: {
+        user: {
+            type: Object,
+            required: true,
+        },
+    }
+};
+</script>

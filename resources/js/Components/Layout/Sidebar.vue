@@ -1,7 +1,7 @@
 <template>
     <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
       <div class="app-brand demo">
-        <a href="index.html" class="app-brand-link">
+        <a :href="route('dashboard')" class="app-brand-link">
           <span class="app-brand-logo demo">
             <!-- SVG Logo -->
             <svg
@@ -69,7 +69,7 @@
         <!-- Menu Items -->
          <!-- Dashboard -->
          <li class="menu-item active">
-            <a href="index.html" class="menu-link">
+            <a :href="route('dashboard')" class="menu-link">
               <i class="menu-icon tf-icons bx bx-home-circle"></i>
               <div data-i18n="Analytics">Dashboard</div>
             </a>

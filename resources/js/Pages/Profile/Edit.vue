@@ -15,19 +15,10 @@ import DeleteUserForm from "./Partials/DeleteUserForm.vue";
 import UpdatePasswordForm from "./Partials/UpdatePasswordForm.vue";
 import UpdateProfileInformationForm from "./Partials/UpdateProfileInformationForm.vue";
 import { Head } from "@inertiajs/vue3";
-
-defineProps({
-    mustVerifyEmail: {
-        type: Boolean,
-    },
-    status: {
-        type: String,
-    },
-});
 </script>
 
 <template>
-    <Layout>
+    <Layout :user="user">
         <div class="container-xxl flex-grow-1 container-p-y">
             <h2 class="text-xl font-semibold leading-tight text-gray-800">
                 Profile
@@ -62,6 +53,18 @@ import Layout from "../../Components/Layout/Layout.vue";
 export default {
     components: {
         Layout,
+    },
+    props: {
+        user: {
+            type: Object,
+            required: true,
+        },
+        mustVerifyEmail: {
+      type: Boolean,
+    },
+    status: {
+      type: String,
+    },
     },
 };
 </script>
