@@ -86,7 +86,7 @@ const submit = () => {
                 <span class="app-brand-text demo text-body fw-bolder">Adminify</span>
               </a>
             </div>
-            <h4 class="mb-2">Welcome to Sneat! 👋</h4>
+            <h4 class="mb-2">Welcome to Adminify! 👋</h4>
             <p class="mb-4">Please sign in to your account and start the adventure</p>
 
             <form @submit.prevent="submit" class="mb-3">
