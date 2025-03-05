@@ -10,17 +10,31 @@ class ProductController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        return Inertia::render('Product/index');
+        $user = $request->user();
+        return Inertia::render('Product/index', [
+            'user' => [
+                'name' => $user->name,
+                'email' => $user->email,
+            ],
+        ]);
+        // return Inertia::render('Product/index');
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $user = $request->user();
+        return Inertia::render('Product/create', [
+            'user' => [
+                'name' => $user->name,
+                'email' => $user->email,
+            ],
+        ]);
+        // return Inertia::render('Product/create');
     }
 
     /**
