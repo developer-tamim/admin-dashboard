@@ -242,7 +242,7 @@
         <div class="card">
           <!-- <h5 class="card-header">Hoverable rows</h5> -->
           <div class="p-3">
-            <a href="#" type="button" class="btn btn-outline-primary">
+            <a :href="route('product.create')" type="button" class="btn btn-outline-primary">
               <span class="tf-icons bx bx-plus"></span>&nbsp; Add Product
             </a>
           </div>

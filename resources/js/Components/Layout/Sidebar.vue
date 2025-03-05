@@ -88,19 +88,19 @@
           </li>
           <li class="menu-item">
             <a :href="route('product.index')" class="menu-link">
-              <i class="menu-icon tf-icons bx bx-dock-top"></i>
-              <div data-i18n="Account Settings">List</div>
+              <i class="menu-icon tf-icons bx bx-list-ul"></i>
+              <div data-i18n="Account Settings">Product</div>
             </a>
             </li>
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link">
-              <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+              <i class="menu-icon tf-icons bx bx-category"></i>
               <div data-i18n="Authentications">Category</div>
             </a>
           </li>
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link">
-              <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+              <i class="menu-icon tf-icons bx bx-category-alt"></i>
               <div data-i18n="Misc">Sub-Category</div>
             </a>
 
