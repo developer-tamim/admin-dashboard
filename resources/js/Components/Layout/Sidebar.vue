@@ -93,15 +93,15 @@
             </a>
             </li>
           <li class="menu-item">
-            <a href="#" class="menu-link">
-              <i class="menu-icon tf-icons bx bx-category"></i>
-              <div data-i18n="Authentications">Category</div>
+            <a :href="route('product.create')" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-add-to-queue"></i>
+              <div data-i18n="Authentications">Add Product</div>
             </a>
           </li>
           <li class="menu-item">
-            <a href="#" class="menu-link">
+            <a :href="route('product.category')" class="menu-link">
               <i class="menu-icon tf-icons bx bx-category-alt"></i>
-              <div data-i18n="Misc">Sub-Category</div>
+              <div data-i18n="Misc">Category</div>
             </a>
 
           </li>

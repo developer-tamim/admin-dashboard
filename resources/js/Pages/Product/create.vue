@@ -101,14 +101,14 @@
                   </div>
                   <!-- /Variants -->
                   <!-- Inventory -->
-                  <div class="card mb-6">
+                  <!-- <div class="card mb-6">
                     <div class="card-header">
                       <h5 class="card-title mb-0">Inventory</h5>
                     </div>
                     <div class="card-body">
-                      <div class="row">
+                      <div class="row"> -->
                         <!-- Navigation -->
-                        <div class="col-12 col-md-4 col-xl-5 col-xxl-4 mx-auto card-separator">
+                        <!-- <div class="col-12 col-md-4 col-xl-5 col-xxl-4 mx-auto card-separator">
                           <div class="d-flex justify-content-between flex-column mb-4 mb-md-0 pe-md-4">
                             <div class="nav-align-left">
                               <ul class="nav nav-pills flex-column w-100" role="tablist">
@@ -145,13 +145,13 @@
                               </ul>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- /Navigation -->
                         <!-- Options -->
-                        <div class="col-12 col-md-8 col-xl-7 col-xxl-8 pt-6 pt-md-0">
-                          <div class="tab-content p-0 ps-md-4">
+                        <!-- <div class="col-12 col-md-8 col-xl-7 col-xxl-8 pt-6 pt-md-0">
+                          <div class="tab-content p-0 ps-md-4"> -->
                             <!-- Restock Tab -->
-                            <div class="tab-pane fade active show" id="restock" role="tabpanel">
+                            <!-- <div class="tab-pane fade active show" id="restock" role="tabpanel">
                               <h6 class="text-body">Options</h6>
                               <label class="form-label" for="ecommerce-product-stock">Add to Stock</label>
                               <div class="row mb-4 g-4 pe-md-4">
@@ -168,9 +168,9 @@
                                 <h6 class="mb-2 fw-normal">Last time restocked: <span class="text-body">24th June, 2023</span></h6>
                                 <h6 class="mb-0 fw-normal">Total stock over lifetime: <span class="text-body">2430</span></h6>
                               </div>
-                            </div>
+                            </div> -->
                             <!-- Shipping Tab -->
-                            <div class="tab-pane fade" id="shipping" role="tabpanel">
+                            <!-- <div class="tab-pane fade" id="shipping" role="tabpanel">
                               <h6 class="mb-3 text-body">Shipping Type</h6>
                               <div>
                                 <div class="form-check mb-4">
@@ -191,78 +191,78 @@
                                 </div>
                                 <p class="mb-0">See our <a href="javascript:void(0);">Delivery terms and conditions</a> for details</p>
                               </div>
-                            </div>
+                            </div> -->
                             <!-- Global Delivery Tab -->
-                            <div class="tab-pane fade" id="global-delivery" role="tabpanel">
-                              <h6 class="mb-3 text-body">Global Delivery</h6>
+                            <!-- <div class="tab-pane fade" id="global-delivery" role="tabpanel">
+                              <h6 class="mb-3 text-body">Global Delivery</h6> -->
                               <!-- Worldwide delivery -->
-                              <div class="form-check mb-4">
+                              <!-- <div class="form-check mb-4">
                                 <input class="form-check-input" type="radio" name="globalDel" id="worldwide">
                                 <label class="form-check-label" for="worldwide">
                                   <span class="mb-1 h6">Worldwide delivery</span><br>
                                   <small>Only available with Shipping method: <a href="javascript:void(0);">Fulfilled by Company name</a></small>
                                 </label>
-                              </div>
+                              </div> -->
                               <!-- Global delivery -->
-                              <div class="form-check mb-4">
+                              <!-- <div class="form-check mb-4">
                                 <input class="form-check-input" type="radio" name="globalDel" checked="">
                                 <label class="form-check-label w-75 pe-12" for="country-selected">
                                   <span class="mb-2 h6">Selected Countries</span>
                                   <input type="text" class="form-control" placeholder="Type Country name" id="country-selected">
                                 </label>
-                              </div>
+                              </div> -->
                               <!-- Local delivery -->
-                              <div class="form-check">
+                              <!-- <div class="form-check">
                                 <input class="form-check-input" type="radio" name="globalDel" id="local">
                                 <label class="form-check-label" for="local">
                                   <span class="mb-1 h6">Local delivery</span><br>
                                   <small>Deliver to your country of residence : <a href="javascript:void(0);">Change profile address</a></small>
                                 </label>
-                              </div>
-                            </div>
+                              </div> -->
+                            <!-- </div> -->
                             <!-- Attributes Tab -->
-                            <div class="tab-pane fade" id="attributes" role="tabpanel">
+                            <!-- <div class="tab-pane fade" id="attributes" role="tabpanel">
                               <h6 class="mb-2 text-body">Attributes</h6>
-                              <div>
+                              <div> -->
                                 <!-- Fragile Product -->
-                                <div class="form-check mb-4">
+                                <!-- <div class="form-check mb-4">
                                   <input class="form-check-input" type="checkbox" value="fragile" id="fragile">
                                   <label class="form-check-label" for="fragile">
                                     <span class="fw-medium">Fragile Product</span>
                                   </label>
-                                </div>
+                                </div> -->
                                 <!-- Biodegradable -->
-                                <div class="form-check mb-4">
+                                <!-- <div class="form-check mb-4">
                                   <input class="form-check-input" type="checkbox" value="biodegradable" id="biodegradable">
                                   <label class="form-check-label" for="biodegradable">
                                     <span class="fw-medium">Biodegradable</span>
                                   </label>
-                                </div>
+                                </div> -->
                                 <!-- Frozen Product -->
-                                <div class="form-check mb-4">
+                                <!-- <div class="form-check mb-4">
                                   <input class="form-check-input" type="checkbox" value="frozen" checked="">
                                   <label class="form-check-label w-75 pe-12" for="frozen">
                                     <span class="mb-1 h6">Frozen Product</span>
                                     <input type="number" class="form-control" placeholder="Max. allowed Temperature" id="frozen">
                                   </label>
-                                </div>
+                                </div> -->
                                 <!-- Exp Date -->
-                                <div class="form-check mb-6">
+                                <!-- <div class="form-check mb-6">
                                   <input class="form-check-input" type="checkbox" value="expDate" id="expDate" checked="">
                                   <label class="form-check-label w-75 pe-12" for="date-input">
                                     <span class="mb-1 h6">Expiry Date of Product</span>
                                     <input type="text" class="product-date form-control flatpickr-input" id="date-input" readonly="readonly">
                                   </label>
-                                </div>
-                              </div>
-                            </div>
+                                </div> -->
+                              <!-- </div>
+                            </div> -->
                             <!-- /Attributes Tab -->
                             <!-- Advanced Tab -->
-                            <div class="tab-pane fade" id="advanced" role="tabpanel">
+                            <!-- <div class="tab-pane fade" id="advanced" role="tabpanel">
                               <h6 class="mb-3 text-body">Advanced</h6>
-                              <div class="row">
+                              <div class="row"> -->
                                 <!-- Product Id Type -->
-                                <div class="col">
+                                <!-- <div class="col">
                                   <label class="form-label" for="product-id">
                                     <span class="mb-1 h6">Product ID Type</span>
                                   </label>
@@ -274,23 +274,23 @@
                                     <option value="JAN">JAN</option>
                                   </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="3" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-product-id-container"><span class="select2-selection__rendered" id="select2-product-id-container" role="textbox" aria-readonly="true"><span class="select2-selection__placeholder">ISBN</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
                                 </div>
-                                </div>
+                                </div> -->
                                 <!-- Product Id -->
-                                <div class="col">
+                                <!-- <div class="col">
                                   <label class="form-label" for="product-id-1">
                                     <span class="mb-1 h6">Product ID</span>
                                   </label>
                                   <input type="number" id="product-id-1" class="form-control" placeholder="ISBN Number">
-                                </div>
-                              </div>
-                            </div>
+                                </div> -->
+                              <!-- </div>
+                            </div> -->
                             <!-- /Advanced Tab -->
-                          </div>
-                        </div>
+                          <!-- </div>
+                        </div> -->
                         <!-- /Options-->
-                      </div>
+                      <!-- </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- /Inventory -->
                 </div>
                 <!-- /Second column -->
@@ -322,7 +322,7 @@
                       <div class="d-flex justify-content-between align-items-center border-top pt-2">
                         <span class="mb-0">In stock</span>
                         <div class="form-check form-switch mb-2">
-                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
                           </div>
                         <!-- <div class="w-25 d-flex justify-content-end">
                           <div class="form-check form-switch me-n3">

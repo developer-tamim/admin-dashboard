@@ -76,4 +76,15 @@ class ProductController extends Controller
     {
         //
     }
+    public function category(Request $request)
+    {
+        $user = $request->user();
+        return Inertia::render('Product/category', [
+            'user' => [
+                'name' => $user->name,
+                'email' => $user->email,
+            ],
+        ]);
+        // return Inertia::render('Product/create');
+    }
 }
