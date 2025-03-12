@@ -10,7 +10,7 @@
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
                         <!-- <div class="avatar"><img src="../../js/assets/img/ecommerce-images/product-16.png" alt="Product-8" class="rounded"></div> -->
-                        <div class="avatar"><img src="../../../js/assets/img/elements/1.jpg" alt="Product-8" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/1.jpg" alt="Product-8" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Travel</span>
@@ -30,7 +30,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/2.jpg" alt="Product-1" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/2.jpg" alt="Product-1" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Smart Phone</span>
@@ -50,7 +50,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/3.jpg" alt="Product-4" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/3.jpg" alt="Product-4" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Shoes</span>
@@ -70,7 +70,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/4.jpg" alt="Product-10" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/4.jpg" alt="Product-10" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Jewellery</span>
@@ -90,7 +90,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/5.jpg" alt="Product-7" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/5.jpg" alt="Product-7" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Home Decor</span>
@@ -110,7 +110,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/6.jpg" alt="Product-11" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/6.jpg" alt="Product-11" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Grocery</span>
@@ -130,7 +130,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/7.jpg" alt="Product-6" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/7.jpg" alt="Product-6" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Games</span>
@@ -150,7 +150,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/8.jpg" alt="Product-2" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/8.jpg" alt="Product-2" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Electronics</span>
@@ -170,7 +170,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/9.jpg" alt="Product-12" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/9.jpg" alt="Product-12" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Clothing</span>
@@ -190,7 +190,7 @@
                   </td></tr><tr><td class="control" tabindex="0"></td><td class="dt-select"><input aria-label="Select row" class="form-check-input" type="checkbox"></td><td class="sorting_1">
                     <div class="d-flex align-items-center">
                       <div class="avatar-wrapper me-3 rounded-2 bg-label-secondary">
-                        <div class="avatar"><img src="../../../js/assets/img/elements/10.jpg" alt="Product-3" class="rounded"></div>
+                        <!-- <div class="avatar"><img src="../../../js/assets/img/elements/10.jpg" alt="Product-3" class="rounded"></div> -->
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <span class="text-heading text-wrap fw-medium">Clocks</span>
