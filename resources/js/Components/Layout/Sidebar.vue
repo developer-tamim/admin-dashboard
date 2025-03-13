@@ -106,24 +106,24 @@
 
           </li>
           <!-- Components -->
-          <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
+          <li class="menu-header small text-uppercase"><span class="menu-header-text">Order</span></li>
           <!-- Cards -->
           <li class="menu-item">
             <a href="#" class="menu-link">
               <i class="menu-icon tf-icons bx bx-collection"></i>
-              <div data-i18n="Basic">Cards</div>
+              <div data-i18n="Basic">Order List</div>
             </a>
           </li>
           <!-- User interface -->
           <li class="menu-item">
             <a href="#" class="menu-link">
               <i class="menu-icon tf-icons bx bx-box"></i>
-              <div data-i18n="User interface">User interface</div>
+              <div data-i18n="User interface">Order Details</div>
             </a>
           </li>
 
           <!-- Extended components -->
-          <li class="menu-item">
+          <!-- <li class="menu-item">
             <a href="#" class="menu-link">
               <i class="menu-icon tf-icons bx bx-copy"></i>
               <div data-i18n="Extended UI">Extended UI</div>
@@ -135,7 +135,7 @@
               <i class="menu-icon tf-icons bx bx-crown"></i>
               <div data-i18n="Boxicons">Boxicons</div>
             </a>
-          </li>
+          </li> -->
 
           <!-- Forms & Tables -->
           <li class="menu-header small text-uppercase"><span class="menu-header-text">Forms &amp; Tables</span></li>
