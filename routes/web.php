@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
@@ -28,6 +29,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/product/create', [ProductController::class, 'create'])->name('product.create');
     Route::get('/product/category', [ProductController::class, 'category'])->name('product.category');
 
+    // Order
+    Route::get('/order', [OrderController::class, 'index'])->name('order.index');
 });
 
 Route::middleware('auth')->group(function () {
